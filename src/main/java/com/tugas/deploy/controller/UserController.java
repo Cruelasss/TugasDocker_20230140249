@@ -23,7 +23,7 @@ public class UserController {
     public String login(@RequestParam String username, @RequestParam String password, Model model) {
         // Login: username = admin, password = nim masing-masing
         // GANTI "123456789" DENGAN NIM ASLIMU!
-        if ("admin".equals(username) && "123456789".equals(password)) {
+        if ("admin".equals(username) && "20230140249".equals(password)) {
             return "redirect:/home";
         }
         model.addAttribute("error", "Username atau Password salah!");
